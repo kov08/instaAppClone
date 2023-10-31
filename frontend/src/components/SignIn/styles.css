@@ -1,0 +1,55 @@
+.signIn {
+    background-image: url('../../img/insta_background_1.jpg');
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: #ffffff36;
+    padding: 30px;
+    border: 1px solid rgb(163, 54, 114);
+    border-radius: 1px;
+
+}
+
+.signinLogo {
+    width: 200px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.form2 {
+    background-color: #ffffff36;
+    padding: 20px;
+    margin-top: 5px;
+    border: 1px solid rgb(163, 54, 114);
+}
+
+.input {
+    padding: 5px;
+    margin: 3px 0px;
+    overflow: none;
+    font-size: 17px;
+    width: 98%;
+    box-sizing: border-box;
+}
+
+.form > div {
+    width: 80%;
+    margin: auto;
+}
+
+#submit-btn {
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 8px;
+}
